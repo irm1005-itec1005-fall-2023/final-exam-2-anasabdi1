@@ -67,3 +67,346 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+ .logo {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  justify-content:flex-start;
+  width:7%;
+  background-color: black;
+  border-radius: 30%;
+ padding: 0.7rem;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #040404;
+  padding: 0.7rem;
+  width: 12%;
+  border-radius: 20%;
+ font-weight: bold;
+  color: white;
+}
+
+
+.Title{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  border-radius: 15%;
+  padding-top: 10rem;
+}
+
+.h2{
+  font-size: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding:2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+
+}
+
+.Web-Dev{
+  display: flex;
+  background-color: #cdb4db;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.UI-UX{
+  display: flex;
+  background-color: #ffc8dd;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin-left: 2rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.CSS{
+  display: flex;
+  background-color: #ffafcc;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.JS{
+  display: flex;
+  background-color: #bde0fe;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.HTML{
+  display: flex;
+  background-color: #a2d2ff;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.GitHub{
+  display: flex;
+  background-color: #cdb4db ;
+  width:20%;
+  height: 10%;
+  border-radius: 15%;
+  padding: 5rem;
+  margin: 0;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  margin-left: 15rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  
+}
+
+.Hero {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.Amygrid {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  gap: 1.25rem; 
+  align-items: center;
+  max-width: 50rem; 
+  width: 100%;
+  padding: 1.25rem; 
+}
+
+.Amy {
+  max-width: 100%;
+  width: 25rem; 
+  height: auto; 
+  border-radius:15%;
+}
+
+.text-container {
+  height: 100%;
+  width: 100%;
+  max-width: 37.5rem; 
+}
+
+.aboutme1,
+.aboutme2 {
+  padding: 1rem; 
+}
+
+.Myworkh2{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding:2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black
+  
+}
+
+.mywork-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.mywork-item {
+  position: relative;
+  overflow: hidden;
+  width: calc(50% - 10px); /* 50% width with a little gap */
+}
+
+.mywork-item img {
+  width: 100%;
+  height: auto;
+}
+
+.mywork-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(255, 192, 203, 0.7);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mywork-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.mywork-item {
+  position: relative;
+  overflow: hidden;
+  width: calc(50% - 10px); /* 50% width with a little gap */
+}
+
+.mywork-item img {
+  width: 100%;
+  height: auto;
+}
+
+.mywork-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(255, 192, 203, 0.7);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mywork-item:hover .mywork-overlay {
+  opacity: 1;
+}
+
+.mywork-text {
+  margin: 0;
+  font-size: 1.2em;
+  color: black;
+}
+
+.mywork-button {
+  display: inline-block;
+  background-color: #ffd1dc;
+  color: black;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.mywork-html {
+  margin-right: 5px;
+}
+
+.mywork-css {
+  margin-left: 5px;
+}
+
+.mywork-text {
+  margin: 0;
+  font-size: 1.2em;
+  color: black;
+}
+
+.mywork-button {
+  display: inline-block;
+  background-color: #ffd1dc;
+  color: black;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.mywork-html {
+  margin-right: 5px;
+}
+
+.mywork-css {
+  margin-left: 5px;
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cdb4db;
+}
+
+.booking-text {
+  margin-bottom: 20px; 
+}
+
+h1 {
+  font-size: 24px; 
+}
+
+.small-text {
+  font-size: 16px;
+}
